@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Height of the website</title>
+    <link rel="stylesheet" href="../static/main.css"
+  </head>
+  <body>
+    <div class="container">
+          <h1 class=""> Collecting heights </h1>
+          <h3> Fill in your details and see how you compare to the world </h3>
+          <form class="" action="{{url_for('success')}}" method="post">
+            <input type="email" placeholder="johndoe@exampl.com" name="email addrees" value="" required>
+            <input type="number" placeholder="height" name="Height of the person" min="50" max="300" value="" required>
+            <button type="button" name="button">Submit</button>
+          </form>
+      </div>
+  </body>
+</html>
